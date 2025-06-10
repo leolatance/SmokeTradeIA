@@ -1,0 +1,75 @@
+# Logs e databases
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.sqlite
+*.db
+
+# Dependências
+/node_modules
+/.pnpm-store
+/.yarn/cache
+/.yarn/unplugged
+/.yarn/build-state.yml
+.pnp.*
+
+# Ambiente
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env*.local
+
+# Build
+dist
+dist-ssr
+build
+.out
+.next
+.nuxt
+.cache
+.turbo
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.sublime-workspace
+
+# Específico do projeto
+/public/config.json
+*.userprefs
+*.tmp
+*.tmp.*
+
+# Testes
+coverage
+.nyc_output
+
+# Local development
+.env.local
+.history
+*.local
+
+# Frontend sensitive directories
+frontend/src/auth/
+frontend/src/lib/
+frontend/dist/
+frontend/.env*
+frontend/*.local
+frontend/coverage/
+frontend/.vite/
+frontend/.cache/
